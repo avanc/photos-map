@@ -169,7 +169,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":47,
+ "nextlayerid":48,
  "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
@@ -263,6 +263,19 @@
          "imagewidth":1024,
          "margin":0,
          "name":"Island",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":32,
+         "firstgid":8437,
+         "image":"tilesets\/beach-desert.png",
+         "imageheight":1024,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"Beach_Desert",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
