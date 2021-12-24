@@ -30,7 +30,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json#mine_entry1"
+                 "value":"main.json#mine_entry1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -66,7 +66,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json#mine_entry2"
+                 "value":"main.json#mine_entry2"
                 }],
          "type":"tilelayer",
          "visible":true,
