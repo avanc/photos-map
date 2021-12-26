@@ -1,1 +1,49 @@
-Overview and Gallery
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset='utf-8'>
+    <title>photOS Overview</title>
+
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.ediki.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  </head>
+
+  <body>
+
+<img src="images/photos_logo.svg" alt="photOS" width="300"/><br/>
+<br/>
+
+
+photOS is a lightweight Linux-based operating system for a DIY photoframe.<br/>
+The software syncs photos with a dav server so new images can be easily added. In my current setup I use Nextcloud as server, but any dav server should work. With Nextcloud I can use the Android app to directly upload images from my mobile phone. In addition, I can share the photo folder with other family members, so they can add photos as well. Even from a distance during pandemies...<br>
+<br>
+Main focus are the Raspberry Pi boards (especially Raspberry Pi Zero W, as the performance is sufficient). But as photoOS is based on the great work of thingOS by ccrisan, which builds on top of Buildroot, other boards can be easily supported. Just create a ticket for not supported boards.
+
+<h2>Features</h2>
+<ul>
+  <li>Sync: Photos can be synced from a WebDAV server.</li>
+  <li>Offline: Works also if no internet connection is available.</li>
+  <li>Power Saving: By turning the HDMI output off (e.g. by default at night) most monitors go into power savings mode. In addition, the HDMI output can be turned on/off using motion detector.</li>
+  <li>Small Footprint: Images are directly drawn on the framebuffer without the need for any X dependencies.</li>
+  <li>Highly Customizable: As true for all Open Source solutions :-)</li>
+</ul>
+
+<h2>Hardware</h2>
+The hardware requirements are minimal and the system is easy to setup, as only a Raspberry Pi and an old monitor is needed. But you can spend a lot of time in the woodwork :-)
+
+<h2>Installation, Configuration and Update</h2>
+The installation, configuration and update of photOS is documented on <a href="">Github</a>.
