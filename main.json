@@ -290,6 +290,34 @@
         }, 
         {
          "draworder":"topdown",
+         "id":60,
+         "name":"Badge",
+         "objects":[
+                {
+                 "height":31.5,
+                 "id":9,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"zkVKxtawA7EXeTTuOGuMAJvwyGAUcMKPcOsZ7w8JJfxcsKNSke"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":322,
+                 "y":287
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
          "objects":[],
@@ -335,8 +363,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":60,
- "nextobjectid":9,
+ "nextlayerid":61,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "properties":[
         {

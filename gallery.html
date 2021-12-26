@@ -1,1 +1,100 @@
-llery
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.ediki.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+</head>
+<body>
+
+<h2>Image Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/image1.jpg"  width="600" height="400">
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/image2.jpg" width="600" height="400">
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/image3.jpg" width="600" height="400">
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/image4.jpg"  width="600" height="400">
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
