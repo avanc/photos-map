@@ -20,12 +20,6 @@
          "id":51,
          "name":"exit",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"world:\/\/lounge"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":47,
@@ -504,15 +498,6 @@
          "tilecount":1200,
          "tileheight":32,
          "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC0, Mullana (cc@mullana.de)"
-                        }]
-                }, 
                 {
                  "animation":[
                         {
